@@ -1,4 +1,9 @@
 {
   "extends": ["airbnb", "airbnb/hooks", "plugin:prettier/recommended", "prettier/react"],
-  "plugins": ["prettier"]
+  "plugins": ["prettier"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  }
 }

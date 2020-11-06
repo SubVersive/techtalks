@@ -5,13 +5,13 @@ import loadable from '@loadable/component';
 
 import BaseLayout from './base-layout';
 
-// eslint-disable-next-line
 const MainReveal = loadable(() => import('./reveal/main'));
 
 const Layout = ({ children }) => (
   <BaseLayout>
-    <MainReveal />
-    <div style={{ height: '100vh' }}>{children}</div>
+    <MainReveal>
+      <div style={{ height: '100vh' }}>{children}</div>
+    </MainReveal>
   </BaseLayout>
 );
 

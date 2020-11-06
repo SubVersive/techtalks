@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+
 import Layout from '../../components/reveal-layout';
 
 import Code from '../../components/reveal/code';
