@@ -11,6 +11,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@loadable/component": "^5.14.1",
     "gatsby": "^2.25.3",
     "gatsby-plugin-react-helmet": "^3.3.14",
     "gatsby-source-filesystem": "^2.4.1",
