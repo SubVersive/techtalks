@@ -12,9 +12,9 @@
   },
   "dependencies": {
     "@loadable/component": "^5.14.1",
-    "gatsby": "^2.25.3",
-    "gatsby-plugin-react-helmet": "^3.3.14",
-    "gatsby-source-filesystem": "^2.4.1",
+    "gatsby": "^2.27.1",
+    "gatsby-plugin-react-helmet": "^3.5.0",
+    "gatsby-source-filesystem": "^2.6.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -22,15 +22,15 @@
     "reveal.js": "^4.1.0"
   },
   "devDependencies": {
-    "eslint": "^7.12.1",
-    "eslint-config-airbnb": "^18.2.0",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.1.2"
+    "prettier": "^2.2.0"
   },
   "repository": {
     "type": "git"
