@@ -5,5 +5,8 @@
   "parserOptions": {
     "sourceType": "module",
     "allowImportExportEverywhere": true
+  },
+  "rules": {
+    "react/prop-types": "off"
   }
 }
