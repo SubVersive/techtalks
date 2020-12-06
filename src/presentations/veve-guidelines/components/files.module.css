@@ -1,0 +1,60 @@
+.List {
+  margin: 0px 0px 0px 20px;
+  text-align: left;
+}
+
+.ListTitle {
+  left: -16px;
+  font-size: 16px;
+  position: relative;
+  color: orange;
+}
+
+.ListFile {
+  color: #eee;
+  font-weight: normal;
+}
+
+.ListDirectory {
+  color: #0a63d1;
+  font-weight: bold;
+}
+
+.ListItem {
+  padding-top: 6px;
+  font-size: 16px;
+  position: relative;
+}
+
+.ListItem::before {
+  position: absolute;
+  left: -15px;
+  top: 0px;
+  content: '';
+  display: block;
+  border-left: 1px solid #ddd;
+  height: 1em;
+  border-bottom: 1px solid #ddd;
+  width: 10px;
+}
+
+.ListItem::after {
+  position: absolute;
+  left: -15px;
+  bottom: -7px;
+  content: '';
+  display: block;
+  border-left: 1px solid #ddd;
+  height: 100%;
+}
+.ListItem:last-child::after {
+  display: none;
+}
+
+.ListRoot {
+  margin: 0px 0px 0px -20px;
+}
+
+.ListRoot::before, .ListRoot::after {
+  display: none;
+}

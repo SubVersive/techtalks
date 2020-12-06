@@ -1,0 +1,46 @@
+.Slide36 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.Slide36 > h1 {
+  flex-grow: 1;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 40px !important;
+  margin-bottom: 16px !important;
+  text-align: left;
+}
+
+.Slide36 > h3 {
+  flex-grow: 1;
+  text-align: right;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px !important;
+  margin-bottom: 16px !important;
+}
+
+.Slide36 > .Body {
+  display: flex;
+  flex-basis: 100%;
+  font-size: 24px;
+  text-align: left;
+  border-top: 1px solid orange;
+  padding-top: 26px;
+}
+
+.Slide36 > .Body > div:first-child {
+  flex-basis: 35%;
+}
+
+.Slide36 > .Body > div:last-child {
+  flex-grow: 1;
+}
+
+.Slide36 > .Body p:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
