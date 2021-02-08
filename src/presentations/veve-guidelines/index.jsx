@@ -7,7 +7,7 @@ import Layout from '../../components/reveal-layout';
 import Files from './components/files';
 import FilesFocus from './components/files-focus';
 
-export default () => (
+const Index = () => (
   <Layout>
     <div className="reveal">
       <Helmet>
@@ -131,3 +131,5 @@ export default () => (
     </div>
   </Layout>
 );
+
+export default Index;

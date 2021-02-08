@@ -5,7 +5,7 @@ import Layout from '../../components/reveal-layout';
 
 import Code from '../../components/reveal/code';
 
-export default () => (
+const Index = () => (
   <Layout>
     <div className="reveal">
       <Helmet>
@@ -31,3 +31,5 @@ export default () => (
     </div>
   </Layout>
 );
+
+export default Index;
