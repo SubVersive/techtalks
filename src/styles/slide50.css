@@ -1,0 +1,46 @@
+.Slide50 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.Slide50 > h1 {
+  flex-grow: 1;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 40px !important;
+  margin-bottom: 16px !important;
+  text-align: left;
+}
+
+.Slide50 > h3 {
+  flex-grow: 1;
+  text-align: right;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px !important;
+  margin-bottom: 16px !important;
+}
+
+.Slide50 > .Body {
+  display: flex;
+  flex-basis: 100%;
+  font-size: 24px;
+  text-align: left;
+  border-top: 1px solid orange;
+  padding-top: 26px;
+}
+
+.Slide50 > .Body > div:first-child {
+  flex-basis: 50%;
+}
+
+.Slide50 > .Body > div:last-child {
+  flex-basis: 50%;
+}
+
+.Slide50 > .Body p:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}

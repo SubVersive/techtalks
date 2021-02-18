@@ -15,7 +15,9 @@ const MainReveal = ({ children }) => {
     const deck = new Reveal({
       plugins: [Highlight],
     });
-    deck.initialize();
+    deck.initialize({
+      center: false,
+    });
     setReady(true);
   }, []);
   return <div style={{ display: ready ? 'block' : 'none' }}>{children}</div>;

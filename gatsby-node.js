@@ -7,9 +7,11 @@ const readFile = promisify(fs.readFile);
 
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
+const isTopLevel = (dir) => dir.startsWith('presentations/') && dir.split('/').length === 2;
+
 exports.onCreateNode = async ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
-  if (node.internal.type === `File` && node.relativeDirectory.startsWith('presentations/')) {
+  if (node.internal.type === `File` && isTopLevel(node.relativeDirectory)) {
     const readme = await readFile(path.join(node.dir, 'README.md'), 'utf8');
     const lines = readme.split(os.EOL);
     const title = lines.find((item) => item.startsWith('title: ')).replace('title: ', '');
